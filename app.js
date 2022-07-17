@@ -2,7 +2,7 @@ const express=require('express')
 const app=express()
 // const bookRouter=require('./routes/bookRoute')
 // const loginRouter=require('./routes/loginRoute')
-const bookModel=require('../backend/src/model/bookModel')
+const bookModel=require('./src/model/bookModel')
 const mongoose=require('mongoose')
 
 const bodyParser=require('body-parser')
