@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://jishnu:wfO5EmnoeQguIugG@cluster1.e131p.mongodb.net/library_db?retryWrites=true&w=majority')
+mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true })
 .then((res)=>{
     console.log('database connected successfuly')
 
