@@ -26,7 +26,7 @@ username='admin'
 password='12345'
 
 
-app.post('api/login',(req,res)=>{
+app.post('/api/login',(req,res)=>{
     let userData=req.body
     res.header("Access-Control-Allow-Origin","*")
     res.header("Access-Control-Allow-Methods: GET,POST,PUT,DELETE")

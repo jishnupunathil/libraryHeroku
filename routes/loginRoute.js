@@ -10,7 +10,7 @@ username='admin'
 password='12345'
 
 
-router.post('api/',(req,res)=>{
+router.post('/api/',(req,res)=>{
     let userData=req.body
     res.header("Access-Control-Allow-Origin","*")
     res.header("Access-Control-Allow-Methods: GET,POST,PUT,DELETE")
